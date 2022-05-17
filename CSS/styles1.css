@@ -1,0 +1,158 @@
+
+body {
+    color: #757575;
+    ;
+}
+
+ul {list-style:none}
+/* цвет основого текста параграфов #757575 */
+
+/* цвет заголовков #212121 */
+
+/* цвет хедера #ECECEC */
+
+/* цвет решения для бизнеса #2F303A */
+
+/* цвет чем мы занимаемся #2F303A */
+
+/* цвет наша команда #F5F4FA */
+
+/* цвет футера #2F303A */
+
+/* цвет синий #2196F3 */
+
+
+/* header logo */
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo1 {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+/* site-nav */
+
+.site-nav a {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.site-nav :hover,
+.site-nav :focus {
+    color: #2196F3
+}
+
+/* site-contacts */
+
+.site-contacts a {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.site-contacts :hover,
+.site-contacts :focus {
+    color: #2196F3
+}
+
+/* hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+
+/* section solutions */
+
+.hero {
+    
+    background: #2F303A;
+}
+
+
+.solutions-title {
+color: #212121;
+}
+
+.solutions-text {
+    color: #757575;
+}
+
+.title {
+    color: #212121;
+}
+
+.team-main-title {
+    color: #212121
+}
+
+.team-title {
+    color: #212121
+}
+
+.team-text {
+    color: #757575;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+
+/* footer logo */
+
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo2 {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.streetadres {
+    color: #FFFFFF;
+}
+
+.mail {
+    color: #FFFFFF99;
+}
+
+.phone {
+    color: #FFFFFF99;
+}
+
