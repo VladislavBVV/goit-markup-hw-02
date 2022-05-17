@@ -24,11 +24,12 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 letter-spacing: 0.03em;
 
 color: #000000;
 }
+
+/* секция nav */
 
 .studio {
     font-family: 'Roboto';
@@ -41,7 +42,8 @@ letter-spacing: 0.02em;
 color: #212121;
 
 }
-.studio:hover {
+.studio:hover, 
+.studio:focus {
     color: #2196F3
 }
 
@@ -56,11 +58,10 @@ letter-spacing: 0.02em;
 color: #212121;
 
 }
-.portfolio:hover {
+.portfolio:hover,
+.portfolio:focus {
     color: #2196F3
 }
-
-
 
 .contacts {
     font-family: 'Roboto';
@@ -69,17 +70,21 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 color: #212121;
 
 }
-.contacts:hover {
+.contacts:hover, 
+.contacts:focus {
     color: #2196F3
 }
 
 .solutions {
     background-color: #2F303A;
 }
+
+
+/* секция контакты */
+
 
 .solutions-title {
     font-family: 'Roboto';
