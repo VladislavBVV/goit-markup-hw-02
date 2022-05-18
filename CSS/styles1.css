@@ -9,12 +9,12 @@
 body {
    font-family: "Roboto", sans-serif;
     color: #757575;
-    ;
+    background-color: #E5E5E5;
 }
 
 ul {list-style:none}
 
-/* цвет heqader #FFFFFF */
+/* цвет header #FFFFFF */
 
 /* цвет основого текста параграфов #757575 */
 
@@ -53,11 +53,12 @@ letter-spacing: 0.03em;
 color: #000000;
 }
 
+.header {
+    background-color: #FFFFFF;
+}
+
 /* site-nav */
 
-.site-nav {
-background-color: #FFFFFF;
-}
 
 .link {
 font-weight: 500;
@@ -76,6 +77,10 @@ letter-spacing: 0.02em;
 
 .contacts .link {
     color: #757575;
+}
+.contacts, .link:hover,
+.contacts, .link:focus {
+    color: var(--accent)  
 }
 /* hero */
 
@@ -131,6 +136,9 @@ color: var(--titletextcolor);
     color: var(--paragraphtextcolor);
 }
 
+.team {
+    background-color: #F5F4FA;
+}
 
 /* footer */
 
@@ -179,10 +187,17 @@ color: #FFFFFF99;
 }
 
 .nav-portfolio button {
+    background-color: #F5F4FA;
 font-weight: 500;
 font-size: 16px;
 line-height: 1,62;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: #212121;
+}
+
+.nav-portfolio button:hover,
+.nav-portfolio button:focus {
+    color: #FFFFFF;
+  background-color: var(--accent);
 }
