@@ -14,8 +14,6 @@ body {
 
 ul {list-style:none}
 
-/* цвет header #FFFFFF */
-
 /* цвет основого текста параграфов #757575 */
 
 /* цвет заголовков #212121 */
@@ -42,6 +40,7 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: var(--accent);
+
 }
 .logo1 {
     font-family: 'Raleway';
@@ -51,10 +50,11 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #000000;
+
 }
 
 .header {
-    background-color: #FFFFFF;
+    background-color: #ECECEC;
 }
 
 /* site-nav */
@@ -66,6 +66,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -120,20 +121,35 @@ color: var(--titletextcolor);
     color: var(--paragraphtextcolor);
 }
 
-.title {
+.section-title {
     color: var(--titletextcolor);
+    text-align: center;
 }
+
+/* наша команда */
 
 .team-main-title {
-    color: var(--titletextcolor)
+    color: var(--titletextcolor)   
 }
 
-.upperphotounderline {
-    color: var(--titletextcolor)
+.team .upperphotounderline {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1,9;
+    
+color: var(--titletextcolor)
 }
 
 .bottomphotounderline {
     color: var(--paragraphtextcolor);
+}
+.works .upperphotounderline {
+    font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
+
+color: var(--titletextcolor)
 }
 
 .team {
@@ -157,6 +173,7 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: var(--accent);
+text-decoration: none;
 }
 .logo2 {
     font-family: 'Raleway';
@@ -175,6 +192,7 @@ font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .mail, .phone {
@@ -184,6 +202,7 @@ font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
 color: #FFFFFF99;
+text-decoration: none;
 }
 
 .nav-portfolio button {
