@@ -154,7 +154,7 @@ color: var(--titletextcolor);
 }
 
 .cards {
-    background-color: var(--cardsbcg);
+    background-color: white;
 }
 
 .team .upperphotounderline {
@@ -175,10 +175,6 @@ color: var(--titletextcolor)
 
 .main-portfolio {
     background-color: var(--worksbcg);
-}
-
-.cards {
-    background-color: var(--cards);
 }
 
 .nav-portfolio {
