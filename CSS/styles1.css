@@ -21,7 +21,6 @@ ul {
     list-style:none;
 }
 
-
 /* цвет основого текста параграфов #757575 */
 
 /* цвет заголовков #212121 */
@@ -44,6 +43,7 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 
+
 color: var(--accent);
 }
 .logo1 {
@@ -52,6 +52,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
+
 
 color: #000000;
 }
@@ -62,21 +63,24 @@ color: #000000;
 
 /* site-nav */
 
+.site-nav a {
+    text-decoration: none;
+}
 
 .link {
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
-    color: #212121;
-    text-decoration: none;
-
-    cursor: pointer;
+text-decoration: none;
+color: #212121;
+ 
+cursor: pointer;
 }
 
 .link:hover,
 .link:focus {
+text-decoration: none;
    color: var(--accent)
 }
 
@@ -98,7 +102,6 @@ letter-spacing: 0.02em;
     font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
@@ -106,15 +109,15 @@ text-transform: uppercase;
 }
 
 .hero {    
+    text-align: center;
     background: var(--herobcg);
 }
 
 .button {
+    display: inline-block;
     font-weight: 700;
 font-size: 16px;
 line-height: 1,88;
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 font-family: inherit;
@@ -208,8 +211,9 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 
+
 color: var(--accent);
-text-decoration: none;
+
 }
 .logo2 {
     font-family: 'Raleway';
@@ -218,6 +222,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
+
 
 color: #FFFFFF;
 }
@@ -228,9 +233,10 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
+  text-decoration: none;
 
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #FFFFFF;
+  
 }
 
 .streetadres:hover,
