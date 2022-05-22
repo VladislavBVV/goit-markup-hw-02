@@ -185,7 +185,7 @@ color: var(--titletextcolor)
     background-color: #FFFFFF;
 }
 
-.works .upperphotounderline {
+.works-list .upperphotounderline {
     font-weight: 700;
 font-size: 18px;
 line-height: 2;
