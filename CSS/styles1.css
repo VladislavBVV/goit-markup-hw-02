@@ -203,6 +203,10 @@ color: var(--titletextcolor)
 
 /* footer logo */
 
+.footer a {
+    text-decoration: none;
+}
+
 .logo {
     font-family: 'Raleway';
 font-style: normal;
